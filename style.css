@@ -301,7 +301,10 @@ svg.lucide { width: 18px; height: 18px; stroke-width: 1.8; flex: none; }
   .nav__links a { padding: 12px 14px; font-size: 1rem; }
   .nav__links .nav__cta { text-align: center; margin-top: 6px; }
   .brand__name { display: none; }
-  .hero { padding: 40px 0 64px; }
+  .hero {
+    padding: 40px 0 64px;
+    background: radial-gradient(500px 300px at 85% 0%, rgba(56,189,248,.10), transparent 70%); /* FIX: no grid lines on mobile */
+  }
   .hero__visual { padding-bottom: 96px; }
   .term { right: 0; width: 100%; }
   .section { padding: 72px 0; }
@@ -322,4 +325,3 @@ svg.lucide { width: 18px; height: 18px; stroke-width: 1.8; flex: none; }
   .reveal { opacity: 1; transform: none; }
   .arch__dot { display: none; }
 }
-
